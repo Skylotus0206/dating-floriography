@@ -10,7 +10,11 @@
   <body>
     <form id="container" action="/" method="GET">
       <div id="main_container">
-        <div class="box"></div>
+        <div id="header">
+          <p>연애꽃말</p>
+          <p>by 늘연</p>
+          <!-- <i class="bi bi-github"></i> -->
+        </div>
         <div id="title">
           <h1>연애꽃말</h1>
           <p>꽃말로 알아보는 나의 연애 스타일!</p>
@@ -19,7 +23,11 @@
           <div id="image"><img src="./images/couple.png" /></div>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-primary" type="submit">
+          <button
+            class="btn btn-primary"
+            type="submit"
+            onClick="location.href='./question.ejs'"
+          >
             내 꽃말 알아보러 가기
           </button>
         </div>

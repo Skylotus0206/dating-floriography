@@ -24,24 +24,10 @@
   background-color: rgb(255, 218, 224);
 }
 
-#header {
+.box {
   width: 100%;
   height: 40px;
   background-color: white;
-}
-
-#header p {
-  margin: auto 5px;
-  box-sizing: content-box;
-  float: left;
-  font-size: 30px;
-  font-family: 'PyeongChangPeace-Bold';
-}
-
-#header i {
-  padding: 50px;
-  font-size: large;
-  float: right;
 }
 
 #main_container {
@@ -49,45 +35,43 @@
   width: 500px;
   height: 100vh;
   background-color: #ffdae0;
-  border: solid gray 1px;
+  border: solid black 1px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-#title h1 {
-  font-family: 'PyeongChangPeace-Bold';
-  color: #f05e85;
-  margin: 30px auto 20px;
-  font-size: 70px;
-  letter-spacing: 10px;
-  /* word-spacing: 5px; */
-  /* background-color: #ffffd0; */
 }
 
 #title p {
-  padding: 5px;
-  font-size: 20px;
-  text-decoration: underline;
-  text-decoration-color: #f05e85;
-  text-decoration-style: wavy;
-  text-underline-offset: 10px;
-  font-weight: bolder;
+  font-size: 17px;
+  margin: 10px;
 }
 
-#body img {
-  margin: 30px;
+#body {
+  margin: auto;
+  text-align: center;
+}
+
+#body #question span {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  /* border-radius: 50px; */
+  background-color: lightpink;
+}
+
+#body .tenor-gif-embed {
+  margin: 30px auto;
   width: 400px;
   height: 400px;
 }
 
 button {
-  font-size: 30px;
+  margin: 5px;
+  font-size: 15px;
   font-weight: bolder;
-  padding: 20px 40px;
+  padding: 20px 20px;
   background-color: #f05e85;
   border-radius: 50px;
+  width: 430px;
 }
 
 #footer {
