@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'TAEBAEKmilkyway', 'sans-serif';
+}
+
+#container {
+  background-color: rgb(255, 218, 224);
+}
+
+/* .box {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+} */
+
+#main_container {
+  margin: auto;
+  width: 500px;
+  height: 100vh;
+  background-color: #ffdae0;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#title h1 {
+  font-family: 'PyeongChangPeace-Bold';
+  color: #f05e85;
+  margin: 30px auto 20px;
+  font-size: 70px;
+  letter-spacing: 10px;
+  /* word-spacing: 5px; */
+  /* background-color: #ffffd0; */
+}
+
+#title p {
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #f05e85;
+  text-decoration-style: wavy;
+  text-underline-offset: 10px;
+  font-weight: bolder;
+}
+
+#body img {
+  margin: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+button {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 20px 40px;
+  background-color: #f05e85;
+  border-radius: 50px;
+}
+
+#footer {
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+  color: gray;
+}

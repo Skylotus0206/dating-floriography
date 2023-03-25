@@ -1,13 +1,19 @@
 'use strict';
 import express from 'express';
 import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 import indexRouter from './routes/index.js';
 
-const app = express();
 dotenv.config();
+const app = express();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.use('/', indexRouter);
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 // port setup
 app.set('port', process.env.PORT || 5000);

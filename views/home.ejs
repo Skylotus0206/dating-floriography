@@ -4,12 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/home.css" />
     <title>Document</title>
   </head>
   <body>
-    <form action="/" method="GET">
-      <div id="main_container"></div>
-      <h1>Hello</h1>
+    <form id="container" action="/" method="GET">
+      <div id="main_container">
+        <div class="box"></div>
+        <div id="title">
+          <h1>연애꽃말</h1>
+          <p>꽃말로 알아보는 나의 연애 스타일!</p>
+        </div>
+        <div id="body">
+          <div id="image"><img src="./images/couple.png" /></div>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary" type="submit">
+            내 꽃말 알아보러 가기
+          </button>
+        </div>
+        <div id="footer">
+          <p>Copyright 2023. 늘연 co. all rights reserved.</p>
+        </div>
+      </div>
     </form>
   </body>
 </html>
