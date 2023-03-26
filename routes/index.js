@@ -11,4 +11,8 @@ router.get('/question', (req, res) => {
   res.render('question.ejs');
 });
 
+router.get('/header', (req, res) => {
+  res.render('header.ejs');
+});
+
 export default router;

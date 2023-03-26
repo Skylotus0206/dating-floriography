@@ -38,6 +38,7 @@
   display: flex;
   justify-content: center;
 }
+
 #header #lotus {
   margin: auto;
   width: 30px;
@@ -53,22 +54,33 @@
   /* font-family: 'PyeongChangPeace-Bold'; */
 }
 
-#header .h_icon_left {
+#header #h_icon_left {
   margin: 10px 15px;
   width: 30px;
   height: 30px;
   float: left;
 }
 
-#header .h_icon_right {
+#header #linkedIn,
+#gitHub {
   margin: 10px 5px;
   width: 30px;
   height: 30px;
   float: right;
 }
 
-#header #linkedin {
+#header #linkedIn {
   margin-right: 15px;
+}
+
+#main_container {
+  margin: auto;
+  width: 500px;
+  height: 100vh;
+  background-color: #ffdae0;
+  /* border: solid black 1px; */
+  display: flex;
+  flex-direction: column;
 }
 
 #main_container {

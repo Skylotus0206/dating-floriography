@@ -14,6 +14,7 @@ const __dirname = path.dirname(__filename);
 app.use('/', indexRouter);
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.set('view engine', 'ejs');
 
 // port setup
 app.set('port', process.env.PORT || 5000);
