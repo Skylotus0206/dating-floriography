@@ -26,22 +26,48 @@
 
 #header {
   width: 100%;
-  height: 40px;
+  height: 50px;
   background-color: white;
+  border: #f05e85 solid 3px;
+  border-style: double;
+  border-radius: 50px;
 }
 
-#header p {
-  margin: auto 5px;
-  box-sizing: content-box;
-  float: left;
+#header_box {
+  display: flex;
+  justify-content: center;
+}
+#header #lotus {
+  margin: 10px 5px;
+  width: 30px;
+  height: 30px;
+}
+
+#header_box p {
+  display: inline;
+  margin: 10px 2px;
   font-size: 30px;
-  font-family: 'PyeongChangPeace-Bold';
+  font-weight: bolder;
+  color: #8966ba;
+  /* font-family: 'PyeongChangPeace-Bold'; */
 }
 
-#header i {
-  padding: 50px;
-  font-size: large;
+#header .h_icon_left {
+  margin: 10px 15px;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+#header .h_icon_right {
+  margin: 10px 5px;
+  width: 30px;
+  height: 30px;
   float: right;
+}
+
+#header #linkedin {
+  margin-right: 15px;
 }
 
 #main_container {
@@ -49,7 +75,7 @@
   width: 500px;
   height: 100vh;
   background-color: #ffdae0;
-  border: solid gray 1px;
+  /* border: solid gray 1px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +85,7 @@
 #title h1 {
   font-family: 'PyeongChangPeace-Bold';
   color: #f05e85;
-  margin: 30px auto 20px;
+  margin: 20px auto;
   font-size: 70px;
   letter-spacing: 10px;
   /* word-spacing: 5px; */
