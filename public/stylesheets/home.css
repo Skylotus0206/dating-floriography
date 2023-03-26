@@ -17,6 +17,7 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
   font-family: 'TAEBAEKmilkyway', 'sans-serif';
 }
 
@@ -38,17 +39,17 @@
   justify-content: center;
 }
 #header #lotus {
-  margin: 10px 5px;
+  margin: auto;
   width: 30px;
   height: 30px;
 }
 
-#header_box p {
+#header_box a {
   display: inline;
   margin: 10px 2px;
   font-size: 30px;
   font-weight: bolder;
-  color: #8966ba;
+  color: #f05e85;
   /* font-family: 'PyeongChangPeace-Bold'; */
 }
 
