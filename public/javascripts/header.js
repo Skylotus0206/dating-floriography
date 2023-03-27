@@ -75,3 +75,16 @@ const main = () => {
 };
 
 main();
+
+const footer = () => {
+  const div = document.createElement('div');
+  const p = document.createElement('p');
+
+  div.setAttribute('id', 'footer');
+  p.innerText = 'Copyright 2023. 늘연 co. all rights reserved.';
+
+  main_container.append(div);
+  div.append(p);
+};
+
+footer();
